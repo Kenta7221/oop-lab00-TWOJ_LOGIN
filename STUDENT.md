@@ -34,12 +34,12 @@ Hello from Java, Antoni!
     Error: Process completed with exit code 1.
 - Przyczyna oraz sposób naprawy: Brak średnika
 - Commit z błędem (SHA lub link): https://github.com/Kenta7221/oop-lab00-TWOJ_LOGIN/pull/2
-- Czy Actions pokazały błąd, a po naprawie sukces? 
+- Czy Actions pokazały błąd, a po naprawie sukces? Tak
 
 ## Krótkie odpowiedzi
-1. Co różni commit od push? ...
-2. Dlaczego po scaleniu PR wykonuję lokalnie pull? ...
-3. Co potwierdza zielony wynik naszego CI, a czego nie potwierdza? ...
+1. Co różni commit od push? Commit zapisuje lokalne zmiany, a push wysyła commity do repozytorium
+2. Dlaczego po scaleniu PR wykonuję lokalnie pull? Scalenie PR odbywa się tylko ze strony repozytorium i trzeba zrobić pull aby ją zsynchronizować
+3. Co potwierdza zielony wynik naszego CI, a czego nie potwierdza? Ci tylko potwierdza, że dany kod da się skompilować. Nie potwierdza jednak, jakości kodu, czy działa w różnych środowiskach.
 
 ## Ewentualne problemy środowiska
-Brak / opis problemu i sposób rozwiązania: ...
+Brak
